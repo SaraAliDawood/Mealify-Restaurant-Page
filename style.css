@@ -1,0 +1,537 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.navbar svg{
+    width: 25px;
+    
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    
+    color: #858595;
+}
+.navbar .logo span{
+    color: #ce1212;
+    margin-left: -8px;
+}
+.links a{
+   
+    color: #858595;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    margin-bottom: 2px;
+    font-size: 17px;
+}
+.links ul a.home{
+    color: black;
+    border-bottom: 3px solid #ce1212;
+}
+.navbar .logo{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+.home:hover{
+color: black;
+
+}
+.chefs:hover{
+    color: black;
+   
+}
+.gallery:hover{
+    color: black;
+   
+}
+.Contact:hover{
+    color:black;
+
+}
+.header{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    padding:0 10%;
+flex-wrap: wrap;
+    height: 105vh;
+    
+}
+
+
+.left1 h2{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 65px;
+    color: #37373f;
+    margin: 20px 0;
+} 
+.left1 p{
+    padding-bottom: 20px;
+}
+.btn-booking{
+    width: 380px;
+    height: 55px;
+    background-color: #ce1212;
+    padding: 10px 25px;
+    border-radius:0 20px 20px 20px  ;
+    margin-right: 50px;
+}
+.left1 .video1{
+    color: #333;
+    padding-left: 40px;
+}
+.left1 svg{
+    position: absolute;
+    right: 80%;
+    left: 27.8%;
+    bottom: -4px;
+}
+.video1 a{
+    color: #333;
+}
+.video1:hover a{
+    color: #ce1212;
+}
+.video1::before{
+    content: "";
+    position: absolute;
+    top: 90%;
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    background-color: #fff;
+    border: 1px solid #fff ;
+    border-radius: 50%;
+}
+
+/* .half-circle{
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to right,red 0% 50%,transparent 50% 100%);
+  border-radius: 50%;
+
+} */
+
+.btn-booking a{
+    color: white;
+}
+.rizo img{
+    width: 100%;
+}
+.left1 p{
+    color: #4F4F5A;
+}
+.left1{
+    flex: 1 1 40%;
+    position: relative;
+}
+.right1{
+    flex: 1 1 30%; 
+}
+.chef-content{
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+   
+}
+.chef-content p , .gallery-head , .contact h3{
+font-size: 14px;
+font-family: "Inter", sans-serif;
+color: #7f7f90;
+
+}
+.chef-content p {
+    padding: 0px 30px;
+    margin: 5px 0 15px;
+}
+.chef-content span , .gallery span , .two , .contact p{ 
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif ;
+    
+}
+.chef-content span{
+    padding: 0 3px;
+}
+.OUR , .gallery span , .contact h3 , .contact p{
+    color: #333;
+}
+.PROF , .gallery span , .contact span{
+    color: #ce1212;
+}
+h3{
+    padding: 20px 0 0;
+    margin:  20px 0 0;
+}
+.chef-cards{
+    text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px 20px;
+gap: 30px;
+flex-wrap: wrap;
+
+
+}
+.chef-cards img {
+    width: 100%;
+}
+.chefs{
+    flex:0 1 30%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    transition: transform 1s ;
+}
+.social-icons ul{
+    display: flex;
+    flex-direction: column;
+}
+.social-icons i{
+    color: #37373f66;
+    font-size: 25px;
+    padding: 10px;
+}
+.social-icons{
+    background-color: #ffffff4d;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    border-radius: 15px;
+    transform: translate(120%);
+    transition: transform 1s 1s;
+    
+}
+.chefs:hover{
+    transform: scale(1.1);
+}
+.chefs:hover .social-icons{
+
+transform: translate(0%);
+}
+.gallery{
+    background-color: #eeeeee;
+}
+.gallery-head{
+   padding-top: 50px;
+}
+.gallery{
+    text-align: center;
+}
+.col{
+    align-self: flex-start;
+}
+.layer{
+    position: relative;
+    margin: 0;
+    transition: transform 1s;
+    overflow: hidden;
+}
+.gallery-menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.gallery-col img{
+    width: 100%;
+}
+.gallery-content *{
+    color: #fff;
+   
+}
+.gallery-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+position: absolute;
+background-color: #00000096;
+top: 0;
+flex-wrap: wrap;
+    bottom: 3px;
+    left: 0;
+    right: 0; 
+    transform: translateY(130%);
+    transition: transform 1s;
+}
+.gallery-col{
+    flex: 0 1 30%;
+}
+.layer:hover img{
+transform: scale(1.1);
+
+}
+.layer:hover .gallery-content{
+    transform: translate(0%);
+}
+p{
+    margin: 5px 0 5px ;
+}
+.contact{
+    padding: 40px;
+    text-align: center;
+}
+.maps{
+    width: 80%;
+    margin: auto;
+}
+.maps img {
+    width: 100%; 
+}
+.address{
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    margin: 10px;
+    flex: 0 1 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.address div.icon{
+    background-color: #ce1212;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 15px solid #ce1212;
+}
+.icon i{
+    color: #fff;
+    
+}
+.our-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.address-child{
+    flex: 0 1 80%;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+}
+.logo{
+    color:white;
+    font-size: 30px;
+}
+footer .logo span{
+    color: #ce1212;
+}
+footer img{
+    width: 30px;
+    padding-right: 10px;
+}
+.contact-form{
+    background-color: #fff;
+    box-shadow: 3px 3px 15px 0 rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 80%;
+    margin: 20px ;
+}
+
+form{
+    display: flex;
+   justify-content: center;
+   flex-flow: column wrap;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.name{
+flex: 0 1 47%;
+padding: 10px;
+}
+.subject{
+width: 99%;
+padding: 10px 4px;
+}
+.message{
+    width: 99%;
+   padding:0 4px 80px;
+}
+ .contact-form button{
+    background-color: #ce1212;
+    border: 10px solid #ce1212;
+    border-radius: 20px;
+    color: #fff;
+}
+.button{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+footer p , footer h3 {
+    color: white;
+}
+footer h3{
+    font-size: 18px;
+    padding: 2px;
+    margin: 2px;
+}
+.about h3{
+    border-bottom: 2px solid #858595;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer .about ul li i{
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 0;
+}
+footer .about ul{
+    display: flex;
+    justify-content: center;
+}
+.about p{
+    padding: 10px 0;
+}
+.details{
+    flex: 0 1 20%;
+}
+.subscribe{
+    flex: 0 1 40%;
+    align-self: flex-start;
+}
+.subscribe p{
+    padding: 10px 0;
+}
+.subscribe button{
+    width: ;
+}
+.info span{
+    color: #fff;
+}
+.info i{
+    color: #ce1212;
+    padding: 10px;
+    font-size: 25px;
+}
+.subscribe form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ .subscribe form input[type=mail]{
+    bbackground-color: white;
+    flex: 0 1 70%;
+    padding: 5px;
+    border: none;
+}
+
+.subscribe form button{
+    flex: 0 1 25%;
+    background-color: #ce1212;
+    padding: 10px 15px 10px 20px;
+    border: none;
+    color: white;
+}
+.subscribe li {
+    color: white;
+    flex: 0 1 40%;
+    transition: transform 1s;
+}
+.subscribe li::before{
+    content: ">";
+    margin-right: 5px;
+    font-weight: bolder;
+}
+.subscribe ul{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+padding-left: 10px;
+}
+footer .subscribe .quick{
+    padding: 20px 0 10px;
+}
+.subscribe li:hover{
+    background-color: #7f7f90;
+    transform: translateX(20px);
+}
+@media screen and (max-width:768px) {
+    .left1{
+        flex: 1 1 80%;
+        margin-bottom: 50px;
+        
+    }
+    .right1{
+        flex: 1 1 80%; 
+    }
+    .header{
+        height: 150vh;
+        align-items: flex-end;
+    }
+    .chefs{
+        flex: 0 1 100%;
+    }
+    .gallery-col{
+        flex: 0 1 100%;
+    }
+    .address{
+        flex: 0 1 100%;
+        padding: 20px;
+    }
+    .name{
+        flex: 0 1 100%;
+        margin: 10px 0;
+    }
+    .details{
+        flex: 0 1 100%;
+    }
+    .subscribe{
+        flex: 0 1 100%;
+    }
+    .subscribe form input[type=mail]{
+       flex: 0 1 100%;
+    }
+    
+    .subscribe form button{
+        flex: 0 1 100%;
+    }
+}
+
